@@ -1,6 +1,6 @@
 .p {
     width: 45%;
-    height: 60vh;
+    height: 55vh;
     margin: 20px 10px;
     border: 2px solid white;
     border-radius: 10px 10px 0px 0px;
@@ -30,14 +30,14 @@
     height: 400px;
 }
 
-.button {
+button {
+    border: none;
+    padding: 15px;
     background-color: rgb(199, 1, 19);
     color: white;
-    border-radius: 25px;
-    width: 80px;
-    height: 30px;
-    align-items: center;
-    text-align: center;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 10px;
 }
 
 button:hover {

@@ -21,7 +21,7 @@ const About = () => {
             make services easier. When I am not programming or problem-solving,
             I spend my time playing video games and discovering new science
             fiction books/movies, camping and enjoying food. Welcome to my
-            porfolio and have fun brow3sing through 😊!
+            porfolio and have fun browsing through 😊!
         </p>
       </div>
     </div>

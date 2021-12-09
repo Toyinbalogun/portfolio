@@ -2,8 +2,31 @@ import "./contact.css";
 import Phone from "../../img/phone.png";
 import Email from "../../img/email.png";
 import LinkedIn from "../../img/linkedin.png";
+import { useRef } from "react";
+import emailjs from "emailjs-com";
 
 const Contact = () => {
+  const formRef = useRef();
+
+  const handleSubmit = (e) => {
+    e.prevenDefault();
+    emailjs
+      .sendForm(
+        "YOUR_SERVICE_ID",
+        "YOUR_TEMPLATE_ID",
+        form.current,
+        "YOUR_USER_ID"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   return (
     <div className="c">
       <div className="c-bg"></div>
@@ -37,10 +60,12 @@ const Contact = () => {
             <b>What’s your story?</b> Get in touch. Always available for
             freelancing if the right project comes along. me.
           </p>
-          <form>
-              <input type="text" placeholder="Name" name="user_name" />
-              <input type="text" placeholder="Subject" name="subject" />
-              <input type="text" placeholder="Email" name="user_email" />
+          <form ref={formRef} onSubmit={handleSubmit}>
+            <input type="text" placeholder="Name" name="user_name" />
+            <input type="text" placeholder="Subject" name="user_subject" />
+            <input type="text" placeholder="Email" name="user_email" />
+            <textarea rows="5" placeholder="Message" name="message" />
+            <button>Submit</button>
           </form>
         </div>
       </div>

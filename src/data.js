@@ -1,7 +1,7 @@
 export const projects = [
     {
       id: 1,
-      img: "",
+      img: "./img/img6.jpg",
       link: "https://www.youtube.com/",
       para: "I design and develop solutions using programming languages frameworks like Java, Python, C++, React, etc. to solve problems and make services easier.",
       git: "https://github.com/Toyinbalogun/aws-image-uploader",
