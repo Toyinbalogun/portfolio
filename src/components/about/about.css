@@ -39,11 +39,13 @@
 }
 
 .a-title {
+    font-size: 50px;
     font-weight: 600;
 }
 
 .a-sub {
     margin: 20px 0px;
+    font-weight: 500;
 }
 
 .a-desc {
