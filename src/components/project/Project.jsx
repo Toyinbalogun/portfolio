@@ -12,7 +12,7 @@ const Project = ({img, link, para, git}) => {
         <img src={img} alt="" className="p-img"/>
       </a>
       <p>{para}</p>
-      <a href={git} target="_blank" rel="noreferrer"><button className="button">Github</button></a>
+      <a href={git} target="_blank" rel="noreferrer"><button className="button">GitHub</button></a>
     </div>
   );
 };
