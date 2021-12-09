@@ -3,6 +3,7 @@ import Phone from "../../img/phone.png";
 import Email from "../../img/email.png";
 import LinkedIn from "../../img/linkedin.png";
 import Resume from "../../img/docR.png";
+import Address from "../../img/adrs.png";
 import Doc from "../../files/doc.pdf";
 import { useRef, useState } from "react";
 import emailjs from "emailjs-com";
@@ -67,6 +68,10 @@ const Contact = () => {
                 <img src={LinkedIn} alt="linkedin-img" className="c-icon" />
                 Toyin Balogun
               </a>
+            </div>
+            <div className="c-info-item">
+              <img src={Address} alt="address-img" className="c-icon" />
+              Ottawa, Canada
             </div>
           </div>
         </div>
