@@ -45,3 +45,10 @@ button:hover {
     color: rgb(199, 1, 19);
     cursor: pointer;
   }
+
+  @media screen and (max-width: 480px) {
+    .p {
+      width: 100%;
+      height: 80vh;
+    }
+  }

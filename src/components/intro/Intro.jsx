@@ -20,9 +20,7 @@ const Intro = () => {
             I design and develop solutions using programming languages and
             frameworks like Java, Python, C++, React, etc. to solve problems and
             make services easier. When I am not programming or problem-solving,
-            I spend my time playing video games and discovering new science
-            fiction books/movies, camping and enjoying food. Welcome to my
-            porfolio and have fun brow3sing through 😊!
+            I spend my time playing video games. 
           </p>
         </div>
         <svg

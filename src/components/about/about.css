@@ -39,7 +39,7 @@
 }
 
 .a-title {
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .a-sub {
@@ -48,4 +48,29 @@
 
 .a-desc {
     font-weight: 300;
+    margin-right: 20px;
+}
+
+@media screen and (max-width:480px) {
+    .a{
+      flex-direction: column;
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    .a-desc {
+        font-weight: 300;
+    }
+
+    .a-left {
+      width: 100%;
+    }
+
+    .a-card {
+      height: 30vh;
+    }
+
+    .a-right{
+      padding: 20px;
+    }
 }

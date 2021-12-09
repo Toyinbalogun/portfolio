@@ -2,24 +2,28 @@ import "./contact.css";
 import Phone from "../../img/phone.png";
 import Email from "../../img/email.png";
 import LinkedIn from "../../img/linkedin.png";
-import { useRef } from "react";
+import Resume from "../../img/docR.png";
+import Doc from "../../files/doc.pdf";
+import { useRef, useState } from "react";
 import emailjs from "emailjs-com";
 
 const Contact = () => {
   const formRef = useRef();
+  const [done, setDone] = useState(false);
 
   const handleSubmit = (e) => {
-    e.prevenDefault();
+    e.preventDefault();
     emailjs
       .sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
-        form.current,
-        "YOUR_USER_ID"
+        "service_hiobkse",
+        "template_k85qn34",
+        formRef.current,
+        "user_ADsF03GdDfYkoaPCa2Gkh"
       )
       .then(
         (result) => {
           console.log(result.text);
+          setDone(true);
         },
         (error) => {
           console.log(error.text);
@@ -41,6 +45,17 @@ const Contact = () => {
             <div className="c-info-item">
               <img src={Email} alt="email-img" className="c-icon" />
               Toyinbalogun@cmail.carleton.ca
+            </div>
+            <div className="c-info-item">
+              <a
+                href={Doc}
+                target="_blank"
+                rel="noreferrer"
+                className="linkedin"
+              >
+                <img src={Resume} alt="linkedin-img" className="c-icon" />
+                View Resume
+              </a>
             </div>
             <div className="c-info-item">
               <a
@@ -66,6 +81,7 @@ const Contact = () => {
             <input type="text" placeholder="Email" name="user_email" />
             <textarea rows="5" placeholder="Message" name="message" />
             <button>Submit</button>
+            {done && " Message Sent! I will be getting back to you shortly!"}
           </form>
         </div>
       </div>
