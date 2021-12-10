@@ -10,8 +10,8 @@ export const projects = [
       id: 2,
       img: "https://github.com/dustinirving/travel-book/raw/master/resources/travelbook.gif",
       link: "https://www.youtube.com/",
-      para: "I design and develop solutions using programming languages frameworks like Java, Python, C++, React, etc. to solve problems and make services easier.",
-      git: "https://github.com/Toyinbalogun/aws-image-uploader",
+      para: "Python Sorting Algorithm Visualizer that implements and visualizes data into algorithms like Bubble Sort, Quick Sort and Merge Sort.",
+      git: "https://github.com/Toyinbalogun/sorting-algorithm-visualizer",
     },
     {
       id: 3,
