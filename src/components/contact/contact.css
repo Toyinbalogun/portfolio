@@ -93,7 +93,7 @@ button {
   }
 
   .c-title {
-    font-size: 30px;
+    font-size: 22px;
   }
 
   .c-info-item {
@@ -105,7 +105,7 @@ button {
     display: none;
   }
   .c-info-item {
-    font-size: 15px;
+    font-size: 14px;
   }
 
   form {
