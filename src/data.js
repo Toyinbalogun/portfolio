@@ -17,7 +17,7 @@ export const projects = [
       id: 3,
       img: "https://github.com/dustinirving/travel-book/raw/master/resources/travelbook.gif",
       link: "https://www.youtube.com/",
-      para: "Carleton Meetups is a react application to upload social and/or study meetup posts on carleton campus by undergrads, grads, research coordinators and faculty.",
+      para: "Carleton Meetups is a react application to upload social and/or study meetup posts on carleton campus by carleton community.",
       git: "https://github.com/Toyinbalogun/aws-image-uploader",
     },
     {
@@ -31,14 +31,14 @@ export const projects = [
       id: 5,
       img: "https://github.com/dustinirving/travel-book/raw/master/resources/travelbook.gif",
       link: "https://www.youtube.com/",
-      para: "I design and develop solutions using programming languages frameworks like Java, Python, C++, React, etc. to solve problems and make services easier.",
+      para: "Focus is a chrome extension built using chrome manifest-v2 to cut distractions while studying/working.",
       git: "https://github.com/Toyinbalogun/aws-image-uploader",
     },
     {
       id: 6,
       img: "https://github.com/dustinirving/travel-book/raw/master/resources/travelbook.gif",
       link: "https://www.youtube.com/",
-      para: "I design and develop solutions using programming languages frameworks like Java, Python, C++, React, etc. to solve problems and make services easier.",
+      para: "Transit Ottawa is GUI app built using javafx and andriod studios for getting from East to West/West to East in Ottawa, ON.",
       git: "https://github.com/Toyinbalogun/aws-image-uploader",
     },
   ];
