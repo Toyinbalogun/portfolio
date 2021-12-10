@@ -17,9 +17,8 @@ const Intro = () => {
           </div>
 
           <p className="i-desc">
-            I design and develop solutions using programming languages and
-            frameworks like Java, Python, C++, React, etc. to solve problems and
-            make services easier.
+            Computer Science student who cares deeply about the user experience
+            by developing interactive real-world applications.
           </p>
         </div>
         <svg
