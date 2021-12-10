@@ -17,7 +17,7 @@ export const projects = [
       id: 3,
       img: "https://github.com/dustinirving/travel-book/raw/master/resources/travelbook.gif",
       link: "https://www.youtube.com/",
-      para: "I design and develop solutions using programming languages frameworks like Java, Python, C++, React, etc. to solve problems and make services easier.",
+      para: "Carleton Meetups is a react application to upload social and/or study meetup posts on carleton campus by undergrads, grads, research coordinators and faculty.",
       git: "https://github.com/Toyinbalogun/aws-image-uploader",
     },
     {
