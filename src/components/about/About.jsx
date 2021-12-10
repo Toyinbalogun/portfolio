@@ -13,7 +13,7 @@ const About = () => {
       <div className="a-right">
       <h1 className="a-title">About Me...</h1>
         <p className="a-sub">
-          Carleton University: Bachelors of Computer Science Honours (Expected graduation April 2023).
+          Carleton University: Bachelors of Computer Science Honours (Expected graduation Dec 2022).
         </p>
         <p className="a-desc">
         I design and develop solutions using programming languages and
