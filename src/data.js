@@ -24,7 +24,7 @@ export const projects = [
       id: 4,
       img: "https://github.com/dustinirving/travel-book/raw/master/resources/travelbook.gif",
       link: "https://www.youtube.com/",
-      para: "I design and develop solutions using programming languages frameworks like Java, Python, C++, React, etc. to solve problems and make services easier.",
+      para: "TokenSwap is a dapp that enables users stake/unstake mock coins and farm fake coins interest with their investments.",
       git: "https://github.com/Toyinbalogun/aws-image-uploader",
     },
     {
