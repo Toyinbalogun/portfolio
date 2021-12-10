@@ -3,7 +3,7 @@ export const projects = [
       id: 1,
       img: "https://github.com/dustinirving/travel-book/raw/master/resources/travelbook.gif",
       link: "https://www.youtube.com/",
-      para: "I design and develop solutions using programming languages frameworks like Java, Python, C++, React, etc. to solve problems and make services easier.",
+      para: "AWS image uploader application to upload images from a frontend react app to store images in an Amazon AWS S3 Bucket and user data in a postgreSQL DB. ",
       git: "https://github.com/Toyinbalogun/aws-image-uploader",
     },
     {
