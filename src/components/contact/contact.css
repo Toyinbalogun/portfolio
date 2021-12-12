@@ -86,15 +86,6 @@ button {
   cursor: pointer;
 }
 
-
-@media only screen and (max-width: 375px) and (max-width: 767px) {
-  .c-title {
-    font-size: 10px;
-    background-color: red;
-  }
-}
-
-
 @media screen and (max-width: 767px) {
   .c-wrapper {
     flex-direction: column;
@@ -102,7 +93,7 @@ button {
   }
 
   .c-title {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .c-icon {
@@ -142,7 +133,7 @@ button {
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 992px) {
+@media only screen and (min-width: 992px) {
   .c-wrapper {
     padding: 0px 50px;
   }
