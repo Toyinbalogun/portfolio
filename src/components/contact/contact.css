@@ -1,5 +1,5 @@
 .linkedin {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .c {
@@ -10,7 +10,7 @@
 .c-bg {
   width: 20px;
   height: 100%;
-  background-color: rgb(199, 1, 19);;
+  background-color: rgb(199, 1, 19);
   position: absolute;
 }
 
@@ -42,12 +42,12 @@
   margin: 50px 0px;
   font-weight: 300;
   width: 70%;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .c-icon {
-  width: 50px;
-  height: 50px;
+  width: 43px;
+  height: 43px;
   margin-right: 20px;
 }
 
@@ -86,7 +86,7 @@ button {
   cursor: pointer;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .c-wrapper {
     flex-direction: column;
     padding: 0px 50px;
@@ -130,4 +130,26 @@ button {
   button {
     margin-top: 10px;
   }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 992px) {
+  .c-wrapper {
+    padding: 0px 50px;
+  }
+
+  .c-title {
+    font-size: 30px;
+  }
+
+  .c-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+  }
+
+  .c-info-item {
+    font-size: 15px;
+  }
+  
 }

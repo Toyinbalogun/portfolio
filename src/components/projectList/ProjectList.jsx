@@ -8,7 +8,7 @@ const ProjectList = () => {
       <div className="pl-texts">
         <h1 className="pl-title">Projects...</h1>
         <p className="pl-desc">
-          Browse below to see projects I have worked on.
+          Browse projects I have worked on below.
         </p>
       </div>
       <div className="pl-list">

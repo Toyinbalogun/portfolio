@@ -77,7 +77,7 @@ const Contact = () => {
         </div>
         <div className="c-right">
           <p className="c-desc">
-            <b>Need to get in touch?</b> Let's connect. Send an email to the email address listed or fill out the form below.
+            <b>Need to get in touch?</b> Let's connect! Send an email to the email address listed or fill out the form below.
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
             <input type="text" placeholder="Name" name="user_name" />

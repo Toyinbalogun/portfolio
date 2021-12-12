@@ -24,7 +24,7 @@ export const projects = [
       id: 4,
       img: "https://github.com/dustinirving/travel-book/raw/master/resources/travelbook.gif",
       link: "https://www.youtube.com/",
-      para: "TokenSwap is a dapp that enables users stake/unstake mock coins and farm fake coins interest with their investments.",
+      para: "TokenSwap is a DAPP which runs on the Ethereum blockchain network that enables users stake/unstake mock coins and farm interest with their investments.",
       git: "https://github.com/Toyinbalogun/TokenSwap",
     },
     {
