@@ -53,6 +53,33 @@
     margin-right: 20px;
 }
 
+@media only screen and (max-width: 375px) and (max-width: 767px) { 
+    .a{
+        flex-direction: column;
+        text-align: center;
+        margin-top: 50px;
+      }
+  
+      .a-desc {
+          font-weight: 300;
+      }
+  
+      .a-left {
+        width: 100%;
+      }
+  
+      .a-card {
+        height: 30vh;
+      }
+  
+      .a-right{
+        padding: 20px;
+      }
+      .a-title {
+        font-size: 35px;
+      }
+}
+
 @media screen and (max-width:600px) {
     .a{
       flex-direction: column;

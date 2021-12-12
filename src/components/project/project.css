@@ -46,11 +46,20 @@ button:hover {
   cursor: pointer;
 }
 
+@media only screen and (max-width: 375px) and (max-width: 767px) { 
+    .p {
+        width: 100%;
+        height: 80vh;
+        
+      }
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media screen and (max-width: 600px) {
   .p {
     width: 100%;
-    height: 74vh;
+    height: 80vh;
+    background-color: aqua;
   }
 }
 
@@ -59,7 +68,6 @@ button:hover {
   .p {
     width: 100%;
     height: 70vh;
-    /* background-color: aqua; */
   }
 }
 
