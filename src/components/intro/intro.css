@@ -180,21 +180,20 @@
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) { 
+@media only screen and (min-width: 1200px) {
   .i {
     /* background-color: purple; */
     /* background-color: white; */
   }
-
   .i-intro {
-    font-size: 35px;
+    font-size: 40px;
   }
 
   .i-name {
-    font-size: 60px;
+    font-size: 90px;
   }
   
   .i-title-item {
-    font-size: 22px;
+    font-size: 25px;
   }
 }

@@ -11,7 +11,7 @@ const Project = ({img, link, para, git}) => {
       <a href={link} target="_blank" rel="noreferrer">
         <img src={img} alt="" className="p-img"/>
       </a>
-      <p className="para-desc">{para}</p>
+      <p>{para}</p>
       <a href={git} target="_blank" rel="noreferrer"><button>GitHub</button></a>
     </div>
   );
