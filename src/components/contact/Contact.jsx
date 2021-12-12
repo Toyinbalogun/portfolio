@@ -80,10 +80,10 @@ const Contact = () => {
             <b>Need to get in touch?</b> Let's connect! Send an email to the email address listed or fill out the form below.
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
-            <input type="text" placeholder="Name" name="user_name" />
-            <input type="text" placeholder="Subject" name="user_subject" />
-            <input type="text" placeholder="Email" name="user_email" />
-            <textarea rows="5" placeholder="Message" name="message" />
+            <input type="text" placeholder="Name" name="user_name" required />
+            <input type="text" placeholder="Subject" name="user_subject" required/>
+            <input type="text" placeholder="Email" name="user_email" required/>
+            <textarea rows="5" placeholder="Message" name="message" required/>
             <button>Submit</button>
             {done && " Message Sent! I will be getting back to you shortly!"}
           </form>

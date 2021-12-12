@@ -59,7 +59,7 @@ button:hover {
   .p {
     width: 100%;
     height: 80vh;
-    background-color: aqua;
+    /* background-color: aqua; */
   }
 }
 
@@ -76,7 +76,6 @@ button:hover {
   .p {
     width: 45%;
     height: 78vh;
-    /* background-color: red; */
   }
 }
 
