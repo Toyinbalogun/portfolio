@@ -92,7 +92,16 @@ button:hover {
 @media only screen and (min-width: 1200px) {
     .p {
         width: 30%;
-        height: 100vh;
+        height: 80vh;
         /* background-color: purple; */
+      }
+
+      .p-img {
+        width: 100%;
+        height: 300px;
+      }
+
+      .para-desc {
+          font-size: 13px;
       }
 }
