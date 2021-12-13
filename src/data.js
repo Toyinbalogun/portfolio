@@ -36,8 +36,8 @@ export const projects = [
     },
     {
       id: 6,
-      img: "https://github.com/dustinirving/travel-book/raw/master/resources/travelbook.gif",
-      link: "https://www.youtube.com/",
+      img: "https://github.com/Toyinbalogun/OtrainLine1JavaFxGUIApp/raw/master/Images/guiResultStateImg.png",
+      link: "https://github.com/Toyinbalogun/OtrainLine1JavaFxGUIApp",
       para: "Transit Ottawa is GUI app built using javafx and andriod studios for getting from East to West/West to East in Ottawa, ON.",
       git: "https://github.com/Toyinbalogun/OtrainLine1JavaFxGUIApp",
     },
