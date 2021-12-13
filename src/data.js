@@ -1,15 +1,15 @@
 export const projects = [
     {
       id: 1,
-      img: "https://github.com/dustinirving/travel-book/raw/master/resources/travelbook.gif",
-      link: "https://www.youtube.com/",
+      img: "https://github.com/Toyinbalogun/aws-image-uploader/raw/main/Images/aws.gif",
+      link: "https://github.com/Toyinbalogun/aws-image-uploader",
       para: "AWS image uploader application to upload images from a frontend react app to store images in an AWS S3 Bucket and user data in a postgreSQL DB. ",
       git: "https://github.com/Toyinbalogun/aws-image-uploader",
     },
     {
       id: 2,
-      img: "https://github.com/dustinirving/travel-book/raw/master/resources/travelbook.gif",
-      link: "https://www.youtube.com/",
+      img: "https://github.com/Toyinbalogun/sorting-algorithm-visualizer/raw/main/img/mergesort.gif",
+      link: "https://github.com/Toyinbalogun/sorting-algorithm-visualizer",
       para: "Python Sorting Algorithm Visualizer that implements and visualizes data into algorithms like Bubble Sort, Quick Sort and Merge Sort.",
       git: "https://github.com/Toyinbalogun/sorting-algorithm-visualizer",
     },
