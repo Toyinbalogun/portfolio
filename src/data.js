@@ -22,10 +22,10 @@ export const projects = [
     },
     {
       id: 4,
-      img: "https://github.com/dustinirving/travel-book/raw/master/resources/travelbook.gif",
-      link: "https://www.youtube.com/",
-      para: "TokenSwap is a DAPP which runs on the Ethereum blockchain network that enables users stake/unstake mock coins and farm interest with their investments.",
-      git: "https://github.com/Toyinbalogun/TokenSwap",
+      img: "https://github.com/diegolehyt/project1/raw/master/images/3.png",
+      link: "https://github.com/diegolehyt/project1",
+      para: "(Pair-Project) Flyfordable is a web app that implements Skypicker's REST API to fetch flight data for affordable national and international economic flights.",
+      git: "https://github.com/diegolehyt/project1",
     },
     {
       id: 5,
