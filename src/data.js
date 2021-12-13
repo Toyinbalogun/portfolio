@@ -29,8 +29,8 @@ export const projects = [
     },
     {
       id: 5,
-      img: "https://github.com/dustinirving/travel-book/raw/master/resources/travelbook.gif",
-      link: "https://www.youtube.com/",
+      img: "https://github.com/Toyinbalogun/focus-chrome-extension/raw/main/images/focus.gif",
+      link: "https://github.com/Toyinbalogun/focus-chrome-extension",
       para: "Focus is a chrome extension built using chrome manifest-v2 to cut distractions while studying/working from social webpages and applications.",
       git: "https://github.com/Toyinbalogun/focus-chrome-extension",
     },
