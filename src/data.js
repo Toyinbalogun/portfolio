@@ -1,10 +1,10 @@
 export const projects = [
-    {
+    {  
       id: 1,
-      img: "https://github.com/Toyinbalogun/aws-image-uploader/raw/main/Images/aws.gif",
-      link: "https://github.com/Toyinbalogun/aws-image-uploader",
-      para: "AWS image uploader application to upload images from a frontend react app to store images in an AWS S3 Bucket and user data in a postgreSQL DB. ",
-      git: "https://github.com/Toyinbalogun/aws-image-uploader",
+      img: "https://github.com/Toyinbalogun/carleton-meetups-app/raw/main/img/cmtps.gif",
+      link: " https://carleton-meetups-app.herokuapp.com/",
+      para: "Carleton Meetups is a react application to upload social and/or study meetup posts on carleton campus by carleton community.",
+      git: "https://github.com/Toyinbalogun/carleton-meetups-app",
     },
     {
       id: 2,
@@ -15,10 +15,10 @@ export const projects = [
     },
     {
       id: 3,
-      img: "https://github.com/Toyinbalogun/carleton-meetups-app/raw/main/img/cmtps.gif",
-      link: " https://carleton-meetups-app.herokuapp.com/",
-      para: "Carleton Meetups is a react application to upload social and/or study meetup posts on carleton campus by carleton community.",
-      git: "https://github.com/Toyinbalogun/carleton-meetups-app",
+      img: "https://github.com/Toyinbalogun/aws-image-uploader/raw/main/Images/aws.gif",
+      link: "https://github.com/Toyinbalogun/aws-image-uploader",
+      para: "AWS image uploader application to upload images from a frontend react app to store images in an AWS S3 Bucket and user data in a postgreSQL DB. ",
+      git: "https://github.com/Toyinbalogun/aws-image-uploader",
     },
     {
       id: 4,
