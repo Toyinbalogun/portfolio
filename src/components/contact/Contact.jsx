@@ -2,10 +2,10 @@ import "./contact.css";
 import Phone from "../../img/phone.png";
 import Email from "../../img/email.png";
 import LinkedIn from "../../img/linkedin.png";
-import Resume from "../../img/docR.png";
+// import Resume from "../../img/docR.png";
 import git from "../../img/git.png";
 import Address from "../../img/adrs.png";
-import Doc from "../../files/doc.pdf";
+// import Doc from "../../files/doc.pdf";
 import { useRef, useState } from "react";
 import emailjs from "emailjs-com";
 
