@@ -3,6 +3,7 @@ import Phone from "../../img/phone.png";
 import Email from "../../img/email.png";
 import LinkedIn from "../../img/linkedin.png";
 import Resume from "../../img/docR.png";
+import git from "../../img/git.png";
 import Address from "../../img/adrs.png";
 import Doc from "../../files/doc.pdf";
 import { useRef, useState } from "react";
@@ -49,13 +50,13 @@ const Contact = () => {
             </div>
             <div className="c-info-item">
               <a
-                href={Doc}
+                href="https://github.com/Toyinbalogun"
                 target="_blank"
                 rel="noreferrer"
                 className="linkedin"
               >
-                <img src={Resume} alt="linkedin-img" className="c-icon" />
-                View Resume
+                <img src={git} alt="github-img" className="c-icon" />
+                Toyinbalogun
               </a>
             </div>
             <div className="c-info-item">
