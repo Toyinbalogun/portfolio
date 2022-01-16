@@ -40,10 +40,10 @@ const Contact = () => {
         <div className="c-left">
           <h1 className="c-title">Let's get in touch...</h1>
           <div className="c-info">
-            <div className="c-info-item">
+            {/* <div className="c-info-item">
               <img src={Phone} alt="phone-img" className="c-icon" />
               +1 613 700 9969
-            </div>
+            </div> */}
             <div className="c-info-item">
               <img src={Email} alt="email-img" className="c-icon" />
               Toyinbalogun@cmail.carleton.ca
