@@ -1,11 +1,11 @@
 export const projects = [
-    // {  
-    //   id: 1,
-    //   img: "https://github.com/Toyinbalogun/carleton-meetups-app/raw/main/img/cmtps.gif",
-    //   link: " https://carleton-meetups-app.herokuapp.com/",
-    //   para: "Carleton Meetups is a react application to upload social and/or study meetup posts on carleton campus by carleton community.",
-    //   git: "https://github.com/Toyinbalogun/carleton-meetups-app",
-    // },
+    {  
+      id: 1,
+      img: "https://github.com/Toyinbalogun/carleton-meetups-app/raw/main/img/cmtps.gif",
+      link: " https://carleton-meetups-app.herokuapp.com/",
+      para: "Carleton Meetups is a react application to upload social and/or study meetup posts on carleton campus by carleton community.",
+      git: "https://github.com/Toyinbalogun/carleton-meetups-app",
+    },
     {
       id: 2,
       img: "https://github.com/Toyinbalogun/sorting-algorithm-visualizer/raw/main/img/mergesort.gif",
