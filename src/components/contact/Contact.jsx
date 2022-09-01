@@ -8,7 +8,7 @@ import Address from "../../img/adrs.png";
 // import Doc from "../../files/doc.pdf";
 import { useRef, useState } from "react";
 import emailjs from "emailjs-com";
-import { Audio } from 'react-loader-spinner'
+// import { Audio } from 'react-loader-spinner'
 
 const Contact = () => {
   const formRef = useRef();
@@ -17,10 +17,11 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setDone(true);
+    
     emailjs
       .sendForm(
-        "service_5j79nmv",
-        "template_k85qn34",
+        "service_bfhmhed",
+        "template_uvn0vas",
         formRef.current,
         "user_ADsF03GdDfYkoaPCa2Gkh"
       )
@@ -49,7 +50,7 @@ const Contact = () => {
             </div> */}
             <div className="c-info-item">
               <img src={Email} alt="email-img" className="c-icon" />
-              Toyinbalogun@cmail.carleton.ca
+              Tbaloinfo@gmail.com
             </div>
             <div className="c-info-item">
               <a
@@ -84,9 +85,9 @@ const Contact = () => {
             <b>Need to get in touch?</b> Let's connect! Send an email to the email address listed or fill out the form below.
           </p>
           <form ref={formRef} >
-            <input type="text" placeholder="Name" name="user_name" required />
-            <input type="text" placeholder="Subject" name="user_subject" required/>
-            <input type="text" placeholder="Email" name="user_email" required/>
+            <input type="text" placeholder="Name" name="name" required />
+            <input type="text" placeholder="Subject" name="subject" required/>
+            <input type="text" placeholder="Email" name="email" required/>
             <textarea rows="5" placeholder="Message" name="message" required/>
             <button onClick={handleSubmit}>Submit</button>
             
