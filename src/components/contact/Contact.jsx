@@ -1,5 +1,5 @@
 import "./contact.css";
-import Phone from "../../img/phone.png";
+// import Phone from "../../img/phone.png";
 import Email from "../../img/email.png";
 import LinkedIn from "../../img/linkedin.png";
 // import Resume from "../../img/docR.png";
@@ -8,6 +8,7 @@ import Address from "../../img/adrs.png";
 // import Doc from "../../files/doc.pdf";
 import { useRef, useState } from "react";
 import emailjs from "emailjs-com";
+import { Audio } from 'react-loader-spinner'
 
 const Contact = () => {
   const formRef = useRef();
@@ -15,9 +16,10 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    setDone(true);
     emailjs
       .sendForm(
-        "service_hiobkse",
+        "service_5j79nmv",
         "template_k85qn34",
         formRef.current,
         "user_ADsF03GdDfYkoaPCa2Gkh"
@@ -25,14 +27,15 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
-          setDone(true);
+          
         },
         (error) => {
           console.log(error.text);
-        }
+        }     
       );
   };
 
+  console.log(done)
   return (
     <div className="c">
       <div className="c-bg"></div>
@@ -80,12 +83,13 @@ const Contact = () => {
           <p className="c-desc">
             <b>Need to get in touch?</b> Let's connect! Send an email to the email address listed or fill out the form below.
           </p>
-          <form ref={formRef} onSubmit={handleSubmit}>
+          <form ref={formRef} >
             <input type="text" placeholder="Name" name="user_name" required />
             <input type="text" placeholder="Subject" name="user_subject" required/>
             <input type="text" placeholder="Email" name="user_email" required/>
             <textarea rows="5" placeholder="Message" name="message" required/>
-            <button>Submit</button>
+            <button onClick={handleSubmit}>Submit</button>
+            
             {done && " Message Sent! I will be getting back to you shortly!"}
           </form>
         </div>

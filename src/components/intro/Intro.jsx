@@ -18,7 +18,7 @@ const Intro = () => {
 
           <p className="i-desc">
             Computer Science student who cares deeply about the user experience
-            by developing interactive real-world applications.
+            by developing interactive real-world applications that addresses issues that people face every day.
           </p>
         </div>
         <svg

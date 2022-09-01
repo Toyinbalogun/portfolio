@@ -13,7 +13,7 @@ const About = () => {
       <div className="a-right">
         <h1 className="a-title">About Me...</h1>
         <p className="a-sub">
-          Carleton University: Bachelors of Computer Science Honours (Expected
+          Carleton University: Bachelors of Computer Science, Major CGPA: [3.8/4.0] (Expected
           graduation Dec 2022).
         </p>
         <p className="a-desc">
